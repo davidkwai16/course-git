@@ -27,7 +27,9 @@ namespace Primeiro
             Console.WriteLine("Medida com oito casas decimais: " + medida.ToString("F8"));
             Console.WriteLine("Arredondamento (3 casas decimais): " + medida.ToString ("F3"));
             Console.WriteLine("Separador decimal invariant culture: " + medida.ToString("F3",CultureInfo.InvariantCulture));
-
+            Console.WriteLine();
+            Console.WriteLine("Teste Git");
         }
+
     }
 }
