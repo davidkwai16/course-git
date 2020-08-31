@@ -29,6 +29,8 @@ namespace Primeiro
             Console.WriteLine("Separador decimal invariant culture: " + medida.ToString("F3",CultureInfo.InvariantCulture));
             Console.WriteLine();
             Console.WriteLine("Teste Git");
+            Console.WriteLine();
+            Console.WriteLine("Teste novo Git");
         }
 
     }
